@@ -14,6 +14,8 @@ export const query = graphql`
       categories {
         _id
         title
+		description
+
       }
       relatedProjects {
         title

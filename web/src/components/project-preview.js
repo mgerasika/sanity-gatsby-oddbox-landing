@@ -22,6 +22,7 @@ function ProjectPreview(props) {
         )}
       </div>
       <h3 className={cn(responsiveTitle3, styles.title)}>{props.title}</h3>
+		  <pre className={cn(responsiveTitle3, styles.title)}>t2={ props.title2}</pre>
       {props._rawExcerpt && (
         <div className={styles.excerpt}>
           <BlockContent blocks={props._rawExcerpt} />
